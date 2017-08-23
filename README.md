@@ -99,6 +99,7 @@ $~ > cd django-easy-audit
 $~/django-easy-audit > virtualenv .pyenv
 $~/django-easy-audit > source .pyenv/bin/activate
 $~/django-easy-audit > pip install --editable ./
+$~/django-easy-audit > pip install -r requirements.txt
 $~/django-easy-audit > cd easyaudit/tests/
 $~/django-easy-audit/easyaudit/tests > python manage.py test test_app
 ```
